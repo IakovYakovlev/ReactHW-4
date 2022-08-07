@@ -1,0 +1,35 @@
+.card {
+	background-color: var(--white);
+	border-radius: 7px;
+	display: flex;
+	flex-flow: row nowrap;
+	position: relative;
+}
+
+.text {
+	order: 2;
+}
+
+.img {
+	order: 1;
+}
+
+.author {
+	order: 3;
+}
+
+.postingTime {
+	order: 4;
+}
+
+.comments {
+	order: 5;
+}
+
+.like {
+	order: 6;
+}
+
+.controls {
+	order: 7;
+}

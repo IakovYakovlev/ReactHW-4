@@ -1,0 +1,35 @@
+	.textContent {
+		display: flex;
+		flex-flow: row wrap;
+		padding: 22px 20px 13px;
+	}
+
+	.userLink {
+		order: 2;
+		display: flex;
+		flex-flow: row nowrap;
+		align-items: center;
+		height: 20px;
+		padding: 0 6px 0 0;
+	}
+	
+	.avatar {
+		order: 2;
+		border-radius: 20px;
+		width: 20px;
+		height: 20px;
+		margin: 0 7px 0 7px;
+	}
+	
+	.userName {
+		order: 2;
+		color: var(--orange);
+	}
+
+	.createdAt {
+		order: 1;
+	}
+
+	.title {
+		order: 1;
+	}
