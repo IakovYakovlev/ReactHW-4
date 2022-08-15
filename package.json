@@ -31,12 +31,12 @@
     "webpack-cli": "^3.3.11",
     "webpack-dev-server": "^3.10.3"
   },
-	"config": {
-		"commitizen": {
-			"path": "node_modules/cz-customizable"
-		},
-		"cz-customizable": {
-			"config": "config/git/commitizen.js"
-		}
-	}
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-customizable"
+    },
+    "cz-customizable": {
+      "config": "config/git/commitizen.js"
+    }
+  }
 }
